@@ -1,11 +1,11 @@
 <?php
 /**
- * @link      https://github.com/bluezed/yii2-scroll-top
+ * @link      https://github.com/jkofsky/yii2-scroll-top
  * @copyright Copyright (c) 2015 Thomas Geppert
  * @license   https://github.com/bluezed/yii2-scroll-top/blob/master/LICENSE
  */
 
-namespace bluezed\scrollTop;
+namespace jkofsky\scrollTop;
 
 use yii\web\AssetBundle;
 
