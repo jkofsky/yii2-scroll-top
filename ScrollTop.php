@@ -6,7 +6,7 @@
  * @license   https://github.com/bluezed/yii2-scroll-top/blob/master/LICENSE
  */
 
-namespace bluezed\scrollTop;
+namespace jkofsky\scrollTop;
 
 use yii\base\Widget;
 use yii\helpers\Html;
@@ -24,7 +24,7 @@ use yii\helpers\Html;
  * php composer.phar require --prefer-dist bluezed/yii2-scroll-top "*"
  * 
  * or add
- * "bluezed/yii2-scroll-top": "*"
+ * "jkofsky/yii2-scroll-top": "*"
  * to the require section of your composer.json file.
  * 
  * How to use
@@ -37,7 +37,7 @@ use yii\helpers\Html;
  * For example:
  * ```php
  * <?php $this->beginBody() ?>
- * <?= \bluezed\scrollTop\ScrollTop::widget([
+ * <?= \jkofsky\scrollTop\ScrollTop::widget([
  *          'btnColorClass' => 'btn-info'
  *          'glyphicon' => 'glyphicon-circle-arrow-up',
  *          'linkText' => 'Top',
